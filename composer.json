@@ -1,0 +1,16 @@
+{
+    "name": "vagrant/cms.loc",
+    "authors": [
+        {
+            "name": "EvgenyFedorov",
+            "email": "rsa-team@yandex.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "engine\\": "engine",
+            "engine\\di\\": "engine/di"
+        }
+    }
+}
